@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header nav ul{
+            display: grid;
+            list-style: none;
+            gap: 3em;
+            background-color: navy;
+            width: 8%;
+            margin-top: 2%;
+            min-height: 70vh;
+        
+            
+        }
+        header nav ul li a{
+            text-decoration: none;
+            font: 1.2em sans-serif;
+            /* margin: 6%; */
+            color: white;
+            
+        }
+        header nav ul li:hover{
+            background-color: darkgreen;
+
+        }
+        header nav ul li{
+            text-align: justify;
+            
+        }
+        input{
+            width: 50%;
+            height: 4vh;
+            border-radius: 5%;
+        }
+        .parent{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 25rem;
+            color: white;
+            border-radius: 0.4rem;
+        }
+        div{
+            margin: 0.5rem;
+            background-color: rgb(188, 53, 53);
+        }
+        input{
+            width: 100%;
+            /* padding: 0.5rem; */
+            background-color: rgb(181, 66, 66);
+            border: none;
+            outline: none;
+        }
+        ::placeholder{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact US</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav> <br> 
+        <div class="parent"> 
+        <div class="fa-solid fa-magnifying-glass fa-l"></div>
+        <input type="text" placeholder="Search">
+        <div class="fa-regular fa-circle-xmark"></div>
+        </div>
+       
+    </header>
+    
+</body>
+</html>

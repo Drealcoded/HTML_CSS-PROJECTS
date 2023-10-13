@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    min-height: 20vh;
+    background-color: #FFFFFF;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    /* gap: 4em; */
+     padding: 2.4em;
+    gap: 1.2em;
+    font-size: 1.1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+header nav{
+    padding-left: 38%;
+}
+header img{
+    position: absolute;
+    margin-left: 16%;
+    margin-top: 1%;
+}
+.top{
+    display: flex;
+    
+}
+.first h1{
+    font-size: 4.5em;
+}
+.first p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-right: 8%;
+    
+}
+
+
+.first{
+    margin-top: 8%;
+    margin-left: 16%;
+}
+.bluebox{
+    /* border: thin solid blue; */
+    height: 100vh;
+    background-image: url(../imagesss/Sqi\ backg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: %; */
+    display: flex;
+    /* position: relative; */
+}
+.words{
+    margin-left: 50%;
+    margin-top: 8%;
+}
+.second img{
+border-bottom-left-radius: 5em;
+border-bottom-right-radius: 1em;
+}
+.icon a{
+    display: block;
+    line-height: 2em;
+}
+.icon{
+  position: fixed;
+}

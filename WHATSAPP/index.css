@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.box1{
+    border: thin solid green;
+    /* margin: auto; */
+    min-height: 27vh;
+    width: 97rem;
+    background-color: teal;
+}
+
+.box1 h3{
+    text-indent: 20%;
+    padding-top: 2%;
+
+}
+.logo{
+    margin-left: 18%;
+    position: absolute ; padding-top: 2.3%;
+}
+
+.box2{
+    border: thick solid white;
+    min-height: 150vh;
+    width: 60%;
+    background-color: white;
+    margin: auto;
+    margin-top: -7%;
+    box-shadow: 2px 2px 45px 1px gray;
+    border-radius: 1%;
+}
+.box2 h1{
+    font-size: 1.7em;
+    text-indent: 2em;
+    margin-top: 7%;
+}
+.box2 ol{
+    margin-left: 7%;
+    font-size: 1.4em;
+}
+.box2 a{
+    margin-left: 3em;
+    color: green;
+}
+.qcode{
+    position: absolute;
+    margin-left: 42%;
+    margin-top: -29em;
+    
+}
+.box2 hr{
+    width: 90%;
+    margin: auto;
+}
+.box2 h4{
+    margin: auto;
+    /* text-indent:50%; */
+    margin-top: 7%;
+    margin-bottom: 0%;
+    position: absolute;
+    margin-left: 28%;
+}
+.box3{
+    /* border: thick solid grey; */
+    min-height: 70vh;
+    width: 100%;
+    background-color:rgb(232, 229, 229);
+    margin: auto;
+    margin-top: 4%;
+    padding-bottom: 40%;
+    /* margin-top:0%; */
+    /* margin-bottom:-1%; */
+    /* box-shadow: 2px 2px 45px 1px gray;
+    border-radius: 1%; */
+
+}
+.vide{
+    margin: auto;
+    margin-left: 12%;
+    margin-top: -25%;
+    position: absolute;
+}
+.text a{
+    font-size: 1.2rem;
+}

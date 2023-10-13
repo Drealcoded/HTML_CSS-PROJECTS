@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-color: rgb(242,247,248);
+}
+header{
+    background-color: white;
+}
+nav{
+    display: flex;
+    margin: auto;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1168px;
+   
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+    
+    
+}
+nav ul li a{
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+    
+.button1{
+    height: 7vh;
+    width: 100px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.button1 a{
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+}
+.button2{
+    height: 7vh;
+    width: 200px;
+    border-radius: 10px;
+    background-color: black;
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+}
+.button2 a{
+    color: white;
+}
+.firstcontainer{
+    min-height: 70vh;
+    max-width: 1160px;
+    /* border: thick solid black; */
+    margin: auto;
+    display: flex;
+    margin-top: 100px;
+    
+}
+.words{
+    width: 582.6px;
+    height: 80vh;
+    border: none;
+    margin-top: 150px;
+   
+}
+h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif
+}
+p{
+    font-family: 'Rubik', sans-serif ;
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 35px;
+}
+.image{
+    width: 500px;
+    height: 80vh;
+    border:none;
+    background-image: url(../images/main\ image.avif);
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin-left: 60px;
+    /* position: relative; */
+   animation-delay: 0s;
+   animation-duration: 2.3s;
+   animation-direction: alternate;
+   animation-fill-mode: none;
+   animation-play-state: running;
+   animation-timing-function: ease-in-out;
+   
+}
+.gbo{
+    position: relative;
+}
+.button3{
+    width: 160px;
+    height: 6vh;
+    border-radius: 10px;
+    background-color: black;
+}
+.button4{
+    width: 160px;
+    height: 6vh;
+    border-radius: 10px;
+    background-color: black;
+}
+.righttop img{
+    width: 200px;
+    height: 11vh;
+    position: absolute;
+    left: 320px;
+    top: 80px;
+}
+.lefttop img{
+    width: 220px;
+    height: 9.5vh;
+    position: absolute;
+    left: -55px;
+    top: 125px;
+}
+.bottomright img{
+    width: 220px;
+    height: 8vh;
+    position: absolute;
+    left: 340px;
+    top: 320px;
+}
+.bottomleft img{
+    width: 200px;
+    height: 9.5vh;
+    position: absolute;
+    left: -55px;
+    top: 330px;
+}
+.downpart img{
+    width: 190px;
+    height: 9.5vh;
+    position: absolute;
+    left: 160px;
+    top: 470px;
+}
+.second{
+    width:1165px;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+.ww{
+    margin-right: 40px;
+}
+.w1{
+    font-size: 25px;
+}
+.w2{
+    font-size: 15px;
+    line-height: 30px;
+}
+.w3{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.grid-container{
+    width: 1160px;
+    min-height: 80vh;
+    /* border: thick solid black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 160px auto;
+    gap: 40px;
+}
+.grid{
+    border: thin solid black;
+    height: 55vh;
+    width: 550px;
+    border-radius: 20px;
+ 
+    
+}
+.grid1{
+   padding: 80px 0px;
+   border: none;
+}
+.grid:nth-last-of-type(6){
+    border: none;
+}
+.grid:nth-of-type(3){
+    background-color: rgb(255, 255, 255);
+}
+.grid:nth-of-type(4){
+    background-color: white;
+    border: none;
+}
+.grid:nth-of-type(5){
+    background-color: white;
+    border: none;
+}
+.grid:nth-of-type(6){
+    background-color: white;
+    border: none;
+}
+.body3{
+    min-height: 120vh;
+    /* width: 1165px; */
+    /* border: thin solid black; */
+    margin: -50px auto;   
+    background-color: white;
+}
+.body3text{
+   text-align: center;
+   padding: 100px 0px;
+   line-height: 15px;
+}
+.secondd{
+    height: 70vh;
+    width: 1165px;
+    margin: auto;
+    background-color: rgb(121,19,229);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+.textt{
+    /* border: thin solid black; */
+    width: 600px;
+    height: 70vh;
+    color: white;
+    margin: 80px 100px;
+}
+.picc{
+    /* border: thin solid black; */
+    height: 70vh;
+    width:440px ;
+    
+    background-image: url(https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/iphone_Invest_d524b30868/iphone_Invest_d524b30868.avif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}

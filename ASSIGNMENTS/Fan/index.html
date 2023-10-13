@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .box{
+        position: relative;
+        border: thin solid black;
+        min-height: 100vh;
+    }
+    .fan{
+        border: thin solid black;
+        width: 20%;
+        min-height: 40vh;
+        position: relative;
+        /* left: 49%; */
+        margin: auto;
+        /* background-color: black; */
+        border-radius: 100%;
+        margin-top: 2%;
+        background-color: rgba(128, 128, 128, 0.437);
+        /* animation-name: spin;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite; */
+    }
+    .stand{
+        border: thin solid black;
+        height: 50vh;
+        width: 2%;
+        position: relative;
+        left: 49.3%;
+        /* margin: auto; */
+        background-color: black;
+        
+    
+    }
+    .foot{
+        border: thin solid black;
+        width: 19%;
+        height: 5vh;
+        border-top-left-radius: 5em;
+        border-top-right-radius: 5em;
+        margin: auto;
+        background-color: gray;
+    }
+    .blade1{
+         border: thin solid black;
+         width: 55%;
+         height: 5vh;
+         position: absolute;
+         top: 43%;
+         left: 22%;
+         border-radius: 1em;
+         rotate: -30deg;
+         background-color: black;
+         animation-name: spin;
+        animation-duration: 0.1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    .blade2{
+        border: thin solid black;
+        width: 55%;
+        height: 5vh;
+        position: absolute;
+        top: 43%;
+        left: 22%;
+        border-radius: 1em;
+        rotate: 30deg;
+        background-color: black;
+        animation-name: spin;
+        animation-duration: 0.2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    .blade3{
+        border: thin solid black;
+        width: 15%;
+        height: 7vh;
+        position: absolute;
+        border-radius: 10em;
+        top: 40%;
+        left: 42%;
+        background-color: brown;
+    }
+    .circle2{
+        border: thin solid black;
+        width:82%;
+        height:33vh;
+        border-radius: 100%;
+        /* position: relative; */
+        /* left: 10%; */
+        /* top: 20%; */
+        margin: auto;
+        margin-top: 8%;
+    }
+    @keyframes spin{
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    .control1{
+        border: thin solid black;
+        width: 100%;
+        height: 10vh;
+        position: absolute;
+        top: 30%;
+        background-color: gray;
+        border-radius: 100%;
+    }
+    .control2{
+        width: 50%;
+        height: 2vh;
+        background-color: green;
+        border-radius: 100%;
+        position: absolute;
+        left: 25%;
+        top: 20%;
+        
+    }
+    .control3{
+        width: 50%;
+        height: 2vh;
+        background-color: red;
+        border-radius: 100%;
+        position: absolute;
+        left: 25%;
+        top: 50%;
+    }
+    </style>
+</head>
+<body>
+    <d iv class="box">
+        <div class="fan">
+            <div class="blade1"></div>
+            <div class="blade2"></div>
+            <div style="color: darkblue;text-align: center;padding-top: 5%;" class="blade3">OX</div>
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+            <div class=""></div>
+        </div>
+        <div class="stand">
+            <div class="control1">
+                <div class="control2"></div>
+                <div class="control3"></div>
+            </div>
+    
+        </div>
+        <div class="foot"></div>
+    
+
+        
+    </div>
+    
+</body>
+</html>

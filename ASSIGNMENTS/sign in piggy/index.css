@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(6,40,99);
+  
+    background-repeat: no-repeat;
+  
+    
+}
+.logodiv{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagesss/download.png), url(../imagesss/download\ 11.png), url(../imagesss/download\ 3.png), url(../imagesss/download\ 2.png);
+    background-repeat: no-repeat;
+    background-position:   1400px -1px, -90px 600px, -10px -90px, 1358px 550px;
+    background-size: 240px;
+    
+}
+.grid-container{
+    border: thin solid rgb(6,40,99);
+    width: 500px;
+    min-height: 80vh;
+    margin:  auto;
+}
+
+.grid-item:nth-of-type(1){
+    width: 500px;
+    height: 10vh;
+    margin: 60px auto;
+    text-align: center;
+    border: none;
+}
+.grid-item:nth-of-type(2){
+    width: 500px;
+    height: 70vh;
+    margin: -60px auto;
+}
+.border{
+    width: 450px;
+    height: 60vh;
+    background-color: white;
+    margin: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+.first-text{
+    position: absolute;
+    top: 30px;
+    left: 32px;
+    
+}
+.first-text h1{
+    color: rgb(8,62,158);
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    line-height: 40px;
+    
+}
+.first-text p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: rgb(77, 77, 77); 
+}
+.input1{
+    width: 380px;
+    height: 7vh;
+    margin:66px auto;
+    background-color: rgb(237,242,247);
+    border: none;
+    border-radius: 1px;
+    outline: none;
+}
+.firstin p{
+    position: absolute;
+    top: 100px;
+    font-weight: 700;
+    font-size: 13px;
+
+}
+.secondin p{
+    position: absolute;
+    top: 220px;
+    font-weight: 700;
+    font-size: 13px;
+
+}
+.input2{
+    width: 380px;
+    height: 7vh;
+    margin:0px auto;
+    background-color: rgb(237,242,247);
+    border: none;
+    border-radius: 1px;
+    outline: none;
+}
+button{
+    width: 380px;
+    height: 7vh;
+    border: blue;
+    background-color: blue;
+    margin-top: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+
+}
+button a{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+.grid-item:nth-of-type(3){
+    height: 10vh;
+}
+.downpartt{
+   text-align: center;
+}
+.downpartt p a{
+    color: white;
+    line-height: 35px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}

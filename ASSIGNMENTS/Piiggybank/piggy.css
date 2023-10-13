@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    background-color: white;
+}
+nav{
+    display: flex;
+    margin: auto;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1168px;
+   
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+    
+    
+}
+nav ul li a{
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+    
+.button11{
+    height: 7vh;
+    width: 100px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.button11 a{
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+}
+.button12{
+    height: 7vh;
+    width: 200px;
+    border-radius: 10px;
+    background-color: black;
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+}
+.button12 a{
+    color: white;
+}
+
+
+.bigbox1{
+    /* border: thick solid black; */
+    max-width:1168px;
+    margin:10px auto;
+    min-height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    /* background-color: #7913E5; */
+}
+
+.bigbox{
+    
+    background-color:#0D60D8 ;
+    height: 98vh;
+    background-image: url("../imagesss/piggybankright.png");
+    background-repeat: no-repeat;
+    background-size: 27%;
+    background-position: bottom right;
+    /* position: relative; */
+
+}
+.boxpad{
+    border: inherit;
+    width: 100%;
+    height:90vh;
+    margin:10px auto;
+    border: none;
+}
+/* .boxpad:nth-of-type(1){
+    position: absolute;
+} */
+
+.button1{
+    position: absolute;
+    top: 40%;
+    width: 19%;
+    height: 6vh;
+    border-radius: 17px;
+    padding-left: 18px;
+    border: none;
+    color:#7913E5;
+    font-size: 16px;
+    font-family:  Eina01-Regular,sans-serif !important;
+    
+    
+}
+.button2{
+    width: 14%;
+    height: 8vh;
+    background-color: rgb(33, 25, 25);
+    color: white;
+    position: absolute;
+    top: 57%;
+    font-size: 17px;
+    font-family: Eina01-Regular,sans-serif !important    ;;
+    background-image: url("../imagesss/apple__logo-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 13%;
+    background-position:3%;
+    /* border: thin solid white; */
+    border-radius: 15px;
+    
+}
+.button3{
+    width: 14%;
+    height: 8vh;
+    background-color:rgb(33, 25, 25) ;
+    color: white;
+    position: absolute;
+    top: 57%;
+    left: 15%;
+    font-size:17px ;
+    font-family: Eina01-Regular,sans-serif !important;
+    background-image: url("../imagesss/android_play-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 18%;
+    background-position: left;
+    border-radius: 15px;
+}
+.button2:hover{
+    transform: translateY(-10px);
+    transition: 0.9s;
+    color: black;
+    
+
+}
+.button3:hover{
+    transform: translateY(-10px);
+    transition: 0.9s;
+    color: black;
+    
+}
+.boxpad:nth-of-type(2){
+    background-image: url("../imagesss/piggybankiphone.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60%;
+    left: 56%;
+    height: 88vh;
+    top: 7.8%;
+    position: absolute;
+}
+.boxpad:nth-of-type(1){
+    margin-top: 30%;
+}
+.pacebox{
+    background-color: #F2F7F8;
+    min-height: 100vh
+    
+
+}
+.pacebox2{
+    /* border: thin solid black; */
+    min-height: 90vh;
+    max-width: 1165px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+.pace{
+    border: inherit;
+    width: 90%;
+    height: 30vh;
+    margin: 20px auto;
+    
+}
+.pace:nth-of-type(1){
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: none;
+    position: relative;
+}
+.pace:nth-of-type(2){
+    /* width: 30%; */
+    height: 70vh;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+   
+
+    
+}
+.pace:nth-of-type(3){
+    height: 70vh;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    
+    
+}
+.pace:nth-of-type(4){
+    height: 70vh;
+    background-color: white; 
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    
+}
+.purple{
+    /* border: thin solid black; */
+    min-height: 50vh;
+    margin-top: 10%;
+    background-color: #0d60d8;
+    position: relative;
+    background-image: url("../imagesss/yellowimagegirl.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.purple2{
+    max-width: 1165px;
+}
+.buildtext{
+    color: white;
+    position: absolute;
+    left: 11%;
+    top: 20%;
+}
+
+.bigbox11{
+    /* border: thin solid black; */
+    min-height: 75vh;
+    max-width: 80%;
+    margin:70px auto;
+    display: grid;
+    /* gap: 1px; */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr
+
+}
+.bigbox00{
+    background-color: #FFFFFF;
+    min-height: 77vh;
+    
+}
+.boxitem{
+    border: inherit;
+    width: 90%;
+    height: 30vh;
+    margin: 20px auto;
+    gap: 10px;
+    border: none;
+   
+    
+  
+ 
+}
+.boxitem:nth-of-type(1){
+    grid-column-start: 1;
+    grid-column-end: 7;
+    width: 70%;
+    position: relative;
+    height: 8vh;
+}
+/* }.boxitem:nth-of-type(1){
+    position: relative;
+} */
+
+.piggy a{
+    color: black;
+    position: absolute;
+    left: 28%;
+    top: 12%;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 29px;
+}
+.boxitem:nth-of-type(9){
+    position: relative;
+}
+.boxitem:nth-of-type(10){
+    position: relative;
+}
+.boxitem:nth-of-type(11){
+    position: relative;
+}
+.boxitem:nth-of-type(13) {
+    position: relative;
+    width: 100%;
+}
+.piggy2 a{
+    color: black;
+    position: absolute;
+    left: 28%;
+    top: 12%;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 29px;
+}
+.piggy3 a{
+    color: black;
+    position: absolute;
+    left: 28%;
+    top: 12%;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 29px;
+}
+
+.piggy4 a{
+    color: black;
+    position: absolute;
+    /* left: %; */
+    top: 19%;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 24px;
+}
+
+.icon1{
+    color: black;
+    position: absolute;
+    left: 28%;
+    top: 1%;
+    
+
+    
+}
+.icon1 :hover{
+    transform: translateY(-10px);
+    transition: ease-in-out;
+    transition-duration: 1.8s;
+
+}
+.hr1{
+    min-height: 40vh;
+    background-color: white;
+    max-width: 1165px;
+    margin: auto;
+    margin-bottom: 31px;
+}

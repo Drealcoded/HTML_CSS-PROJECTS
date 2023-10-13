@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            /* border: thick solid blue; */
+            min-height: 60vh;
+            max-width:100%;
+            /* margin: auto; */
+            /* margin-top: 2%; */
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            /* gap: 3em; */
+        }
+        .item{
+            /* border: inherit; */
+            border: thick solid blue;
+            width: 100%;
+            height: 26vh;
+            /* margin: 10px 10px; */
+            /* row-gap: 10px; */
+            /* column-gap: 10px; */
+            display: flex;
+            position: relative;
+        }
+        .item:nth-of-type(1){
+            grid-column-start: 1;
+            grid-column-end: 5;
+            border: none;
+            height: 14vh;
+            width: 89%;
+        }
+        .item:nth-of-type(2){
+            grid-column-start: 1;
+            grid-column-end: 5;
+            border: none;
+            width: 89%;
+            height: 7vh;
+            /* background-image: ("https://www.georgefox.edu/photo-gallery/_assets-index/photo/photo00083.jpg"); */
+            
+        }
+        .item:nth-of-type(3){
+            grid-column-start: 1;
+            grid-column-end: 5;
+            border: none;
+            width: 100%;
+            min-height: 90vh;
+            background-image: url("https://www.georgefox.edu/bruin-blog/posts/2022/10/five-tips-to-make-the-most-of-your-study-time/students-studying-2018-cropped");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: left;
+        }
+        /* .item{
+            margin-top:% ;
+        }
+         */
+        .logo1{
+            height: 5vh;
+            margin-left: 17%;
+            margin-top: 2%;
+            position: absolute;
+            
+        }
+        .log1{
+            margin-left:43% ;
+            position: absolute;
+            margin-top: 2%;
+        }
+       .log2{
+            margin-left:63% ;
+            position: absolute;
+            margin-top: 2%;
+       }
+       .button{
+        width: 8%;
+        height: 5vh;
+        position: absolute;
+        background-color: #FB651E;
+        margin-left: 78%;
+        margin-top: 2%;
+        color: white;
+        border-color: #FB651E;
+
+       }
+       header nav ul {
+        display: flex;
+        list-style: none;
+        gap: 2em;
+        margin-left: 70%;
+       }
+       header nav ul{
+        background-color: black;
+        width: 59em;
+        margin-left: 25%;
+        min-height: 7vh;
+        position: relative;
+
+       }
+       header nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 28%;
+        
+       }
+       header nav ul li{
+        margin-top: 1.5%;
+       }
+       header nav input{
+        width: 25%;
+        height: 5vh;
+        position: absolute;
+        margin-left: 73%;
+        margin-top: 0.8%;
+        background-color: transparent;
+        color: white;
+        border-radius: 2em;
+        padding-right: 11%;
+        }
+        .word{
+            margin-left: 10%;
+            margin-top: 15%;
+        }
+       /* .pot{
+        border: thin solid black;
+        min-height: 75vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 20%;
+        
+    } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <div>
+                <img class="logo1" src="../imagesss/FOX.png" alt="">
+            </div>
+            
+            <div class="log1">
+            <h1 style="font-size: 1.1em; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Email</h1>
+            <p>youremail@example</p>
+            </div>
+            <div class="log2">
+            <h3> Call</h3>
+            <p>+1234 567 890 90987</p>
+            </div>
+            <div>
+            <input class="button" type="button" value="Apply Now">
+            </div>
+            
+        </div>
+        <div class="item"> <header>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Courses</a></li>
+                    <li><a href="">Staff</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                    <input type="button" value="Search">
+                </ul>
+            </nav>
+        </header>
+            </div>
+
+
+        <div class="item">
+            <div class="word">
+                <h1 style="font-size: 2.8em; color: #FB651E; ">
+                    University, College <br> School Education
+                </h1> <br>  
+                <p style="font-size: 1em; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">A small river named Duden flows by their place and supplies it with <br> the neccesary regelialia</p> <br> <br>
+                <button style="width: 25%; height: 5vh; background: #FB651E;border-radius: 2em;border: none; color: white;">Contact Us</button>
+            </div>
+        </div>
+        <div style="height: 40vh;background-color: #FB651E; border: none;" class="item"><h2 style="color: white;margin-left: 22%; margin-top: 21%; position: absolute; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Certified Teachers</h2>
+             <p style="margin-top: 40%; font-size: 1em; text-align: center; color: white;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Even the all-powerful pointing has no control about the blind text it is an <br>  ulmost unorthographic.</p>
+        </div>
+        <div style="height: 40vh;background-color: rgb(5, 5, 43); border: none;" class="item"><h2 style="color: white; margin-top: 21%; margin-left: 22%;position: absolute;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Special Education</h2>
+            <p style="margin-top:40%; font-size: 1em; text-align: center; color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Even the all-powerful pointing has no control about the blind text it is an <br>  ulmost unorthographic.</p>
+        </div>
+        <div style="height: 40vh;background-color: #FB651E;border: none;" class="item"><h2 style="color: white;margin-top: 21%; margin-left: 25%; position: absolute;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Book & Library</h2>
+            <p style="margin-top: 40%; font-size: 1em;text-align: center;color: white;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Even the all-powerful pointing has no control about the blind text it is an <br>  ulmost unorthographic.</p>
+        </div>
+        <div style="height: 40vh;background-color: rgb(5, 5, 29); border: none;" class="item"><h2 style="color: white;margin-top: 21%;margin-left: 30%; position: absolute;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Sport Clubs</h2>
+            <p style="margin-top: 40%;font-size: 1em; text-align: center;color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Even the all-powerful pointing has no control about the blind text it is an <br>  ulmost unorthographic.</p>
+        </div>
+        <!-- <div class="item">8</div>
+        <div class="item">9</div>
+        <div class="item">10</div>
+        <div class="item">11</div>
+        <div class="item">12</div>
+ -->
+
+    </div>
+</body>
+</html>

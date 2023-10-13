@@ -1,0 +1,654 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#parent{
+    border: thin solid black;
+    min-height: 90vh;
+    width: 80%;
+    margin: auto;
+    background-image: url("https://img.freepik.com/premium-vector/realistic-light-grey-brick-wall-background_150973-152.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+
+}
+#kid1{
+    border: 10px solid white;
+    height: 40vh;
+    width: 38%;
+    /* margin: auto; */
+    position: absolute;
+    top: 7%;
+    right: 33%;
+        /* background-color: aqua; */
+    background-image: url("https://static01.nyt.com/images/2022/07/18/business/18-economy-amazon-1/18-economy-amazon-1-videoSixteenByNineJumbo1600.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#Gkid{
+    border: thick solid black;
+    height: 1.3vh;
+    width: 38%;
+    position: absolute;
+    bottom:47%;
+    right:33% ;
+    background-color: black;
+}
+#speakerleft{
+    /* border: thick solid; */
+    width: 7%;
+    height: 60vh;
+    top: 22%;
+    position: absolute;
+    left: 8%;
+    background-color: brown;
+}
+#Gkid2{
+    border: thick solid gray;
+    width: 9%;
+    position: absolute;
+    left: 7%;
+    bottom:11%;
+    border-radius: 2em;
+
+}
+#speakerright{
+    border: thick solid b;
+    border-color: white;
+    width: 7%;
+    height: 60vh;
+    top: 22%;
+    position: absolute;
+    right: 11%;
+    background-color: brown;
+}
+#Gkid3{
+    border: thick solid gray;
+    width: 9%;
+    position: absolute;
+    right: 10%;
+    bottom:10%;
+    border-radius: 2em;
+
+}
+.bass{
+    border: thick solid white;
+    width: 5%;
+    height: 8vh;
+    border-radius: 9em;
+    position: absolute;
+    top: 60%;
+    left: 9%;
+    background-color: white;
+}
+.bass2{
+    border: thick solid black;
+    width: 90%;
+    height: 6vh;
+    top: 5%;
+    left: 5%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: black;
+}
+.bass3{
+    border: thick solid white;
+    width: 60%;
+    height: 4vh;
+    top: 18%;
+    left: 18%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: white;
+}
+.bass4{
+    border: thick solid black;
+    width: 43%;
+    height: 3vh;
+    top: 26%;
+    left: 27%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: black;
+}
+.rock{
+    border: thick solid white;
+    width: 5%;
+    height: 8vh;
+    border-radius: 9em;
+    position: absolute;
+    top: 48%;
+    left: 9%;
+    background-color: white;
+
+}
+.rock2{
+    border: thick solid black;
+    width: 90%;
+    height: 6vh;
+    top: 5%;
+    left: 5%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: black;
+}
+.rock3{
+    border: thick solid white;
+    width: 60%;
+    height: 4vh;
+    top: 18%;
+    left: 18%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: white;
+
+}
+.rock4{
+    border: thick solid black;
+    width: 43%;
+    height: 3vh;
+    top: 26%;
+    left: 27%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: black;
+
+}
+.blue{
+    border: thick solid white;
+    width: 5%;
+    height: 8vh;
+    border-radius: 9em;
+    position: absolute;
+    top: 37%;
+    left: 9%;
+    background-color: white;
+
+
+}
+.blue2{
+    border: thick solid black;
+    width: 90%;
+    height: 6vh;
+    top: 5%;
+    left: 5%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: black;
+
+}
+.blue3{
+    border: thick solid white;
+    width: 60%;
+    height: 4vh;
+    top: 18%;
+    left: 18%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: white;
+
+}
+.blue4{
+    border: thick solid black;
+    width: 43%;
+    height: 3vh;
+    top: 26%;
+    left: 27%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: black;
+
+}
+.pop{
+    border: thick solid white;
+    width: 4%;
+    height: 6vh;
+    border-radius: 9em;
+    position: absolute;
+    top: 27%;
+    left: 9.5%;
+    background-color: white;
+}
+.pop2{
+    /* border: thick solid black; */
+    width: 90%;
+    height: 5vh;
+    left: 5%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: black;
+}
+.pop3{
+    /* border: thick solid white; */
+    width: 60%;
+    height: 3vh;
+    top: 18%;
+    left: 20%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: white;
+}
+.pop4{
+    /* border: thick solid black; */
+    width: 43%;
+    height: 2.2vh;
+    top: 26%;
+    left: 27%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: black;
+ 
+}
+.row{
+    border: thick solid white;
+    width: 5%;
+    height: 8vh;
+    border-radius: 9em;
+    position: absolute;
+    bottom: 30%;
+    right: 12%;
+    background-color: white;
+
+}
+.row2{
+    width: 85%;
+    height: 6vh;
+    right: 8%;
+    bottom: 6%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: black;
+}
+.row3{
+    width: 60%;
+    height: 4vh;
+    top: 20%;
+    right: 20%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: white;  
+}
+.row4{
+    width: 43%;
+    height: 3vh;
+    top: 26%;
+    left: 28%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: black;
+ 
+}
+.pen{
+    border: thick solid white;
+    width: 5%;
+    height: 8vh;
+    border-radius: 9em;
+    position: absolute;
+    top: 48%;
+    right: 12%;
+    background-color: white;
+
+} 
+.pen2{
+    width: 85%;
+    height: 6vh;
+    right: 8%;
+    bottom: 6%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: black;
+}
+.pen3{
+    width: 60%;
+    height: 4vh;
+    top: 20%;
+    right: 20%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: white; 
+}
+.pen4{
+    width: 43%;
+    height: 3vh;
+    top: 27%;
+    left: 29%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: black;
+}
+.cod{
+    border: thick solid white;
+    width: 5%;
+    height: 8vh;
+    border-radius: 9em;
+    position: absolute;
+    top: 36%;
+    right: 12%;
+    background-color: white;
+ 
+}
+.cod2{
+    width: 85%;
+    height: 6vh;
+    right: 8%;
+    bottom: 6%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: black;
+}
+.cod3{
+    width: 60%;
+    height: 4vh;
+    top: 20%;
+    right: 20%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: white; 
+} 
+.cod4{
+    width: 43%;
+    height: 3vh;
+    top: 27%;
+    left: 29%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: black;
+}
+.van{
+    border: thick solid white;
+    width: 4%;
+    height: 6vh;
+    border-radius: 9em;
+    position: absolute;
+    top: 27%;
+    right: 12.5%;
+    background-color: white;
+}
+.van2{
+    border: thick solid black;
+    width: 88%;
+    height: 4.5vh;
+    top: 5%;
+    left: 5%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: black;
+ 
+}
+.van3{
+    width: 60%;
+    height: 3vh;
+    top: 20%;
+    right: 20%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: white;
+}
+.van4{
+    width: 43%;
+    height: 2.2vh;
+    top: 29%;
+    left: 28%;
+    border-radius: 9em;
+    position: absolute;
+    background-color: black;
+  
+}
+.shelf{
+    border: thick solid gray;
+    min-height: 20vh;
+    width: 62%;
+    position: absolute;
+    top: 65%;
+    left: 17.5%;
+    border-radius: 2em;
+    background-color: brown;
+
+}
+.space{
+    /* border: thick solid ; */
+    height: 10vh;
+    width: 30%;
+    position: absolute;
+    left: 35%;
+    top: 19%;
+    background-color: black;
+    border-radius: 1em;
+    background-image: url("../imagesss/sppp-r.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.stand{
+    /* border: thick solid black; */
+    height: 2.5vh;
+    width: 3.5%;
+    position: absolute;
+    top: 87.2%;
+    left: 22%;
+    background-color: gray;
+}
+.stand2{
+    /* border: thick solid black; */
+    height: 2.5vh;
+    width: 3.5%;
+    position: absolute;
+    top: 87.2%;
+    left:70% ;
+    background-color: gray;
+}
+.deck{
+    /* border: thick solid black; */
+    height: 22vh;
+    width: 12%;
+    position: absolute;
+    top: 40.5%;
+    left: 16%;
+    border-radius: 2em;
+    background-color: brown;
+}
+.deck2{
+    /* border: thick solid black; */
+    height: 12vh;
+    width: 63%;
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    border-radius: 10em;
+    background-color: white;
+}
+.deck3{
+    /* border: thick solid black; */
+    height: 10vh;
+    width: 79%;
+    position: absolute;
+    top: 7%;
+    left: 9.5%;
+    border-radius: 10em;
+    background-color: black;
+}
+.deck4{
+    height: 7vh;
+    width: 60%;
+    position: absolute;
+    top: 19%;
+    left: 18%;
+    border-radius: 10em;
+    background-color: white;
+}
+.deck5{
+    height: 5vh;
+    width: 45%;
+    position: absolute;
+    top: 27%;
+    left: 25%;
+    border-radius: 10em;
+    background-color: black;
+}
+.deck6{
+    height: 6vh;
+    width: 35%;
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    border-radius: 10em;
+    background-color: black;
+}
+.deck7{
+    height: 4vh;
+    width: 59%;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    border-radius: 10em;
+    background-color: white;
+}
+.deck8{
+    height: 2.8vh;
+    width: 45%;
+    position: absolute;
+    top: 25%;
+    left: 27%;
+    border-radius: 10em;
+    background-color: black;
+}
+.woof{
+    height: 21vh;
+    width: 12%;
+    position: absolute;
+    top: 41.7%;
+    right: 20%;
+    border-radius: 2em;
+    background-color: brown;
+}
+.woof1{
+    height: 12vh;
+    width: 63%;
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    border-radius: 10em;
+    background-color: white;
+}
+.woof2{
+    height: 9vh;
+    width: 50%;
+    position: absolute;
+    top: 47%;
+    right: 26%;
+    border-radius: 10em;
+    background-color: black;
+}
+.woof3{
+    height: 7vh;
+    width: 40%;
+    position: absolute;
+    top: 51%;
+    right: 31%;
+    border-radius: 10em;
+    background-color: white;
+}
+.woof4{
+    height: 5.5vh;
+    width: 30%;
+    position: absolute;
+    top: 55%;
+    right: 36%;
+    border-radius: 10em;
+    background-color: black
+}
+.woof5{
+    height: 6vh;
+    width: 4%;
+    position: absolute;
+    top: 42%;
+    right: 24.3%;
+    border-radius: 10em;
+    background-color: black;
+}
+.woof6{
+    height: 4vh;
+    width: 59%;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    border-radius: 10em;
+    background-color: white;
+}
+.woof7{
+    height: 2.8vh;
+    width: 45%;
+    position: absolute;
+    top: 25%;
+    left: 26%;
+    border-radius: 10em;
+    background-color: black;
+}
+.draw{
+    /* border: thick solid black; */
+    height: 9vh;
+    width: 18%;
+    left: 5%;
+    top: 22%;
+    position: absolute;
+    background-image: url("https://www.cabinetdoorworld.com/wp-content/uploads/2019/09/RaisedPanelDF.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.draw2{
+    height: 9vh;
+    width: 18%;
+    right: 5%;
+    top: 22%;
+    position: absolute;
+    background-image: url("https://www.cabinetdoorworld.com/wp-content/uploads/2019/09/RaisedPanelDF.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button{
+    /* border: thick solid green; */
+    width: 2%;
+    height: 1vh;
+    background-color: rgb(14, 163, 14);
+    border-radius: 1em;
+    position: absolute;
+    left: 17%;
+    bottom: 10%;
+}
+.button2{
+    width: 2%;
+    height: 1vh;
+    background-color: white;
+    border-radius: 1em;
+    position: absolute;
+    left: 14%;
+    bottom: 10%;
+}
+.engine{
+    /* border: thick solid black; */
+    width: 20%;
+    height: 9vh;
+    position: absolute;
+    left: 38.5%;
+    top: 55%;
+    background-image: url("../imagesss/images-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.name{
+    font-size: 0.8em;
+    position: absolute;
+    color: brown;
+    top: 99.1%;
+    left: 45%;
+}
+
+
+
+
+
+

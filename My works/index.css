@@ -1,0 +1,25 @@
+*{
+    margin: p;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+}
+.first{
+    background-color: white;
+    min-height: 100vh;
+    border: thick solid white;
+    width: 50%;
+
+}
+.second{
+    background-color: red;
+    min-height: 100vh;
+    border: thick solid red;
+    width: 50%;
+    padding-top: 15%;
+    padding-left: 15%;
+    color: white;
+    
+}

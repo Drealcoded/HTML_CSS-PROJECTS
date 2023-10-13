@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.cs/>">
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header nav ul{
+    display: inline-flex;
+    gap: 4em;
+    padding: 12px;
+}
+header nav{
+    text-align: center;
+}
+.sub-menu{
+    display: none;
+    position: relative;
+}
+header{
+    background-color: green;
+    min-height: 13vh;
+    padding: 15px;
+}
+header nav ul li a{
+    color: white;
+    
+}
+header nav ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: brown;
+    top: 43px;
+    left: 26em;
+    color: brown;
+}
+header nav  ul .sub-menu ul {
+    display: block;
+    margin: 0.2em;
+}
+header nav ul li .sub-menu ul li{
+    padding: 10px;
+    width: 130px;
+}
+.sub-link{
+    /* position: absolute; */
+    display: none;
+    
+}
+header nav ul li .sub-link ul li{
+    padding: 10px;
+    width: 130px;
+    
+}
+
+header nav ul li:hover  .sub-link ul li{
+    display: block;
+    margin: 0.3em;
+    
+}
+header nav ul li .menu :hover .sub-link {
+    display: block;
+    position: absolute;
+    background-color: blue;
+    top: 43px;
+    left: 9em;
+   
+    
+}
+ /* header nav ul li .menu :hover .sub-link{
+    display: block;
+    position: absolute;
+    background-color: blue;
+    top: 43px;
+    left: 10em;
+} */
+
+/* .sub-menu::after{
+    content: url("fa-solid fa-caret-down");
+} */
+    
+    
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Accelerator</a></li>
+                <li><a href="">Companies</a>
+                    <div class="sub-menu">
+                        <ul>
+                            
+                                
+                            <div class="menu">
+                            <li><a href="">Startup directory</a>
+                            <div class="sub-link">
+                                <ul>
+                                    <li><a href="">Courses</a></li>
+                                    <li><a href="">Level</a></li>
+                                    <li><a href="">Department</a></li>
+                                    <li><a href="">Accomodation</a></li>
+                                </ul>
+                            </div>
+                            </div>
+                            </li>
+
+
+                            <li><a href="">Top companies</a></li>
+                            <li><a href="">Revenue</a></li>
+                            <li><a href="">Valuation</a></li>
+                            <li><a href="">Founder directory</a></li>
+                            <li><a href="">Launch Yc</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">Startup Jobs</a></li>
+                <li><a href="">Find a Co-Founder</a></li>
+                <li><a href="">Library</a></li>
+                <li><a href="">SAFE</a></li>
+                <li><a href="">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

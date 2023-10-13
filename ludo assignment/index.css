@@ -1,0 +1,35 @@
+.tt{
+    background-image: url(https://icdn.caughtoffside.com/wp-content/uploads/2019/09/Cristiano-Ronaldo-Arsenal-640x400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} 
+
+.rr{
+    background-image: url(https://th.bing.com/th/id/R.fe59dc1970448ec8b8fa322c5744ffad?rik=txD82RJDA%2bGLAw&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.dd{
+    background-image: url(https://th.bing.com/th/id/R.3daf8d2e1b615c0817323f0c38d986ec?rik=N1cJLTCiWj%2fvIw&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wp{
+    background-image: url(https://th.bing.com/th/id/R.ca0e9427892dac9818fc971957af3a02?rik=uzTiWz7ReVcwYA&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.mmm{
+    background-image: url(https://th.bing.com/th/id/R.2130ea0f310086b33373165836e6c7c0?rik=uI8LiUwxY6Aqtg&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+td{
+    background-color:violet;
+}

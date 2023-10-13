@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.parent{
+    border: thin solid black;
+    min-height: 98vh;
+    width: 90%;
+    margin: auto;
+    background-image: url("https://www.cnet.com/a/img/resize/3389de9819279904c5a9d3b0fc08d29c717e0e8f/hub/2022/08/18/dae391cf-315c-4543-b8fb-adef44946d37/screen-shot-2022-08-18-at-2-02-33-pm.png?auto=webp&fit=crop&height=675&width=1200");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 1%;
+}
+.circle1{
+    border: thin solid white;
+    height: 87vh;
+    width: 88%;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 6%;
+    rotate: -10deg;
+}
+.circle2{
+    border: thin solid white;
+    height: 81vh;
+    width: 83%;
+    border-radius: 50%;
+    position: absolute;
+    top: 8%;
+    left: 8.5%;
+    rotate: -10deg;
+}
+.circle3{
+    border: thin solid white;
+    height:75vh;
+    width: 78%;
+    border-radius: 50%;
+    position: absolute;
+    top: 11%;
+    left: 11%;
+    rotate: -10deg;
+}
+.circle4{
+    border: thin solid white;
+    height:69vh;
+    width: 73%;
+    border-radius: 50%;
+    position: absolute;
+    top: 14%;
+    left: 13.5%;
+    rotate: -10deg;
+}
+.circle5{
+    border: thick groove white;
+    height:63vh;
+    width: 68%;
+    border-radius: 50%;
+    position: absolute;
+    top: 17%;
+    left: 16%;
+    rotate: -10deg;
+
+}
+.circle6{
+    border: thin solid white;
+    height:57vh;
+    width: 63%;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 18.5%;
+    rotate: -10deg;
+}
+.circle7{
+    border: thin solid white;
+    height:51vh;
+    width: 56%;
+    border-radius: 50%;
+    position: absolute;
+    top: 23%;
+    left: 22%;
+    rotate: -10deg;
+}
+.circle8{
+    border: thin solid white;
+    height:45vh;
+    width: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 26%;
+    left: 25%;
+    rotate: -10deg;
+}
+.circle9{
+    border: thin solid white;
+    height:39vh;
+    width: 46%;
+    border-radius: 50%;
+    position: absolute;
+    top: 29%;
+    left: 27%;
+    rotate: -10deg;
+}
+.sunimg{
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 58%;
+    left: 23%;
+    top: 17%;
+    rotate: -10deg;
+
+}
+.sun2{
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 5%;
+    top: 78%;
+    left: 9%;
+}
+.sun3{
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 8%;
+    rotate: 40deg;
+    top: 60%;
+    left: 11%;
+}
+.sun4{
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 7%;
+    rotate: 35deg;
+    top: 71%;
+    left: 23%;
+}
+.sun5{
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 7%;
+    top: 55%;
+    left: 22%;
+}
+.sun6{
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 4%;
+    top: 30%;
+    left: 66%;
+}
+.sun7{
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 9%;
+    top: 48%;
+    right:19.5%;
+}
+.sun8{
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 6.5%;
+    top: 25%;
+    right:13%;    
+}
+.sun9{
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 8%;
+    top: 47%;
+    right:6%; 
+    rotate: -30deg;
+}
+.Nep{
+    font-size: 1em;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 87%;
+    position: absolute;
+    left: 9%;
+}
+.sat{
+    font-size: 1em;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 71%;
+    position: absolute;
+    left: 13%;
+}
+.mars{
+    font-size: 1em;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 68%;
+    position: absolute;
+    left: 25%;
+}.ven{
+    font-size: 1em;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 53%;
+    position: absolute;
+    left: 24%;
+}
+.su{
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 72%;
+    position: absolute;
+    left: 52%;
+}
+.merc{
+    font-size: 1em;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 27%;
+    position: absolute;
+    right: 30%;
+}
+.Ear{
+    font-size: 1em;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 45%;
+    position: absolute;
+    right: 23%;
+}
+.uran{
+    font-size: 1em;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 55%;
+    position: absolute;
+    right: 8%;
+}
+.jup{
+    font-size: 1em;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 22%;
+    position: absolute;
+    right: 14%;
+}
+
+
+
+

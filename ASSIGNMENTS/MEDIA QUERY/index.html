@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    
+
+    
+    
+    
+</head>
+<body>
+
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            list-style-type: none;
+            text-decoration: none;
+        }
+
+        header{
+            background-color: brown;
+        }
+        header nav{
+            max-width: 80%;
+            background-color: aqua;
+            margin: 0 auto;
+
+        }
+        header nav ul li{
+            display: inline-block;
+            padding: 2em;
+
+        }
+        .toggle{
+            background-color: blue;
+            padding: 10px 20px;
+            text-align: right;
+            font-size: 1.8em;
+            color: white;
+            display: none;
+        }
+        section{
+            background-color: burlywood;
+            height: 80vh;
+             width: 100%;
+        }
+        section .wrapper{
+            display: flex;
+            height: 80vh;
+        }
+        section .wrapper .text{
+            width: 50%;
+            height: 100%;
+            background-color: red;
+            font-size: 1.5em;
+        }
+        section .wrapper .image{
+            background-image: url(../imagesss/yellowimagegirl.png);
+            width: 50%;
+            height: 100%;
+            background-color: blue;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        section .wrapper .text{
+            line-height: 1.5em;
+        }
+
+
+
+
+    /* media query */
+
+    @media (max-width:842px){
+        .toggle{
+            display: block;
+
+        }
+        header nav ul li{
+            display: none;
+        }
+    }
+
+
+
+
+     @media (max-width:834px){
+        section .wrapper .text{
+            line-height: 1;
+            color: blue;
+            padding-top: 1em;
+            padding-left: 2em;
+        }
+     }
+     @media (max-width:752px){
+        section .wrapper{
+            flex-wrap: wrap;
+        }
+        section .wrapper .text{
+            width: 100%;
+        }
+        section .wrapper .image{
+            width: 100%;
+        }
+     }
+
+    </style>
+    
+
+
+
+
+     <!-- <header> --> 
+
+        <header>
+            <nav>
+                <div class="toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Our Services</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">FAQs</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!-- hero page -->
+
+        <section>
+            <div class="wrapper">
+                <div class="text">
+                    <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In velit, possimus inventore enim aspernatur laboriosam ma</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequatur possimus adipisci maiores assumenda aperiam placeat repellendus repellat modi optio! Magnam ad reprehenderit odit ipsam error quae harum vitae voluptates.</p>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequatur possimus adipisci maiores assumenda aperiam placeat repellendus repellat modi optio! Magnam ad reprehenderit odit ipsam error quae harum vitae voluptates.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequatur possimus adipisci maiores assumenda aperiam placeat repellendus repellat modi optio! Magnam ad reprehenderit odit ipsam error quae harum vitae voluptates.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequatur possimus adipisci maiores assumenda aperiam placeat repellendus repellat modi optio! Magnam ad reprehenderit odit ipsam error quae harum vitae voluptates.</p> -->
+                </div>
+                <div class="image">
+
+                </div>
+            </div>
+        </section>
+    
+</body>
+</html>

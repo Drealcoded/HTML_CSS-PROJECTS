@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #box1{
+        border: thick solid brown;
+        margin: auto;
+        width: 50%;
+        min-height: 29vh;
+        text-align: justify;
+        padding: 2em;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        text-transform: capitalize;
+        color: blue;
+        text-shadow: 5px 5px 3px green;
+
+    }
+    #box2{
+        border: thick solid black;
+        margin: auto;
+        width: 55%;
+        min-height: 25vh;
+        text-align: justify;
+        padding: 3em;
+        font-weight: 900;
+        text-transform: lowercase;
+        color: black;
+        font-family: 'Lumanosimo', cursive;
+        text-decoration-line: underline;
+        
+    }
+    #box3{
+        border: thick solid red;
+        margin: auto;
+        width: 50%;
+        min-height: 29vh;
+        text-align: justify;
+        padding: 2em;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: yellowgreen;
+        text-decoration: line-through;
+        font-family: 'Roboto Condensed', sans-serif;
+        text-shadow: 2px 3px 2px brown;
+
+    }
+    #box4{
+        border: thick solid blueviolet;
+        margin: auto;
+        width: 40%;
+        min-height: 25vh;
+        text-align: justify;
+        padding: 7em;
+        font-weight: 900;
+        text-transform: capitalize;
+        color: goldenrod;
+        font-family: 'Tektur', cursive;
+        text-indent: 10%;
+        font-size: 50%;
+
+
+       
+    }
+    #box5{
+        border: thick solid rgba(0, 60, 255, 0.737);
+        margin: auto;
+        width: 40%;
+        min-height: 25vh;
+        text-align: justify;
+        padding: 7em;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: green;
+        text-indent: 5%;
+        font-size: 70%;
+        font-family: 'Lugrasimo', cursive;
+        text-shadow: 4px 4px 3px brown;
+
+
+
+    }
+    #box6{
+        border: thick solid yellow;
+        margin: auto;
+        width: 70%;
+        min-height: 20vh;
+        text-align: justify;
+        line-height: 2;
+        padding: 1em;
+        font-weight: 600;
+        text-transform: uppercase;
+        color:purple;
+        text-indent: 8%;
+        font-size: 150%;
+        font-family: 'Noto Sans KR', sans-serif;
+        text-shadow: 4px 4px 3px red;
+        letter-spacing: 5px;
+        
+ 
+    }
+    #box7{
+        border: thick solid yellow;
+        margin: auto;
+        width: 70%;
+        min-height: 20vh;
+        text-align: justify;
+        line-height: 2;
+        padding: 1em;
+        font-weight: 600;
+        text-transform: uppercase;
+        color:purple;
+        text-indent: 8%;
+        font-size: 150%;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-shadow: red;
+        letter-spacing: 5px;
+        
+    }
+    #box8{
+        border: thick solid bisque;
+        margin: auto;
+        width: 70%;
+        min-height: 20vh;
+        text-align: justify;
+        line-height: 2;
+        padding: 1em;
+        font-weight: 600;
+        text-transform: uppercase;
+        color:purple;
+        text-indent: 8%;
+        font-size: 150%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+    }
+    #box9{
+        border: thick solid aqua;
+        margin: auto;
+        width: 70%;
+        min-height: 20vh;
+        text-align: justify;
+        line-height: 1;
+        padding: 1em;
+        font-weight: 600;
+        text-transform: uppercase;
+        color:purple;
+        text-indent: 8%;
+        font-size: 150%;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-shadow: 4px 4px 3px black;
+        letter-spacing: 5px;
+        
+    }
+    #box10{
+        border: thick solid yellow;
+        margin: auto;
+        width: 70%;
+        min-height: 20vh;
+        text-align: left;
+        line-height: 2;
+        padding: 1em;
+        font-weight: 600;
+        text-transform: capitalize;
+        color:purple;
+        text-indent: 8%;
+        font-size: 150%;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-shadow: 4px 4px 3px grey;
+        letter-spacing: 5px;
+        text-decoration: line-through;
+        
+        
+    }
+    #box11{
+        border: thick solid greenyellow;
+        margin: auto;
+        width: 50%;
+        min-height: 20vh;
+        /* text-align: left; */
+        line-height: 2;
+        padding: 1em;
+        /* font-weight: 600; */
+        text-transform: capitalize;
+        color:midnightblue;
+        text-indent: 8%;
+        font-size: 100%;
+        font-family: 'Lilita One', cursive;
+        letter-spacing: 2px;
+        text-decoration: overline;
+        
+    }
+    #box12{
+        border: thick solid orangered;
+        margin: auto;
+        width: 30%;
+        min-height: 20vh;
+        /* text-align: left; */
+        line-height: 3;
+        padding: 3em;
+        font-weight: 600;
+        text-transform: capitalize;
+        color:rgb(128, 70, 0);
+        text-indent: 8%;
+        font-size: 80%;
+        font-family: 'Lora', serif;
+        /* text-shadow: 9px 2px 3px red; */
+        letter-spacing: 5px;
+        /* text-decoration: line-through; */
+        
+    }
+    #box13{
+        border: thick solid tomato;
+        margin: auto;
+        width: 80%;
+        min-height: 20vh;
+        text-align: right;
+        line-height: 5;
+        padding: 4em;
+        font-weight: 900;
+        /* text-transform: capitalize; */
+        color: teal;
+        text-indent: 3%;
+        font-size: 80%;
+       /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+        /* text-shadow: 4px 4px 3px grey; */
+        letter-spacing: 5px;
+        text-decoration: line-through;
+        
+    }
+    #box14{
+        border: thick solid green;
+        margin: auto;
+        width: 50%;
+        min-height: 20vh;
+        text-align: left;
+        /* line-height: 0; */
+        padding: 1em;
+        font-weight: 600;
+        text-transform: uppercase;
+        /* color:purple; */
+        text-indent: 8%;
+        font-size: 150%;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* text-shadow: 4px 4px 3px grey; */
+        letter-spacing: 5px;
+        /* text-decoration: line-through; */
+        
+    }
+    #box15{
+        border: thick solid maroon;
+        margin: auto;
+        width: 50%;
+        min-height: 20vh;
+        /* text-align: left; */
+        line-height: 1;
+        padding: 2em;
+        font-weight: 900;
+        text-transform: capitalize;
+        color:navy;
+        text-indent: 8%;
+        font-size: 150%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        /* text-shadow: 4px 4px 3px grey; */
+        letter-spacing: 5px;
+        /* text-decoration: line-through; */
+        
+    }
+    #box16{
+        border: thick solid violet;
+        margin: auto;
+        width: 70%;
+        min-height: 20vh;
+        text-align: justify;
+        line-height: 3;
+        padding: 1em;
+        font-weight: 600;
+        text-transform: capitalize;
+        color:black;
+        text-indent: 8%;
+        font-size: 100%;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-shadow: 4px 4px 3px grey;
+        letter-spacing: 5px;
+        text-decoration-line: underline;
+        
+    }
+    #box17{
+        border: thick solid rgb(39, 17, 1);
+        margin: auto;
+        width: 40%;
+        min-height: 20vh;
+        text-align: justify;
+        /* line-height: 2; */
+        padding: 3em;
+        /* font-weight: 600; */
+        text-transform: capitalize;
+        color:purple;
+        text-indent: 8%;
+        font-size: 90%;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+        /* text-shadow: 4px 4px 3px grey; */
+        letter-spacing: 5px;
+        text-decoration: line-through;
+        
+    }
+    #box18{
+        border: thick solid rgb(10, 51, 68);
+        margin: auto;
+        width: 70%;
+        min-height: 20vh;
+        text-align: right;
+        line-height: 2;
+        padding: 3em;
+        font-weight: 900;
+        text-transform: capitalize;
+        color:greenyellow;
+        text-indent: 8%;
+        font-size: 70%;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-shadow: 4px 4px 3px blueviolet;
+        letter-spacing: 3px;
+        text-decoration: underline;
+        
+    }
+    #box19{
+        border: thick solid rgba(115, 0, 255, 0.099);
+        margin: auto;
+        width: 70%;
+        min-height: 20vh;
+        text-align: justify;
+        line-height: 2;
+        padding: 1em;
+        font-weight: 600;
+        text-transform: uppercase;
+        color:palevioletred;
+        text-indent: 4%;
+        font-size: 100%;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        letter-spacing: 2px;
+        text-decoration: overline;
+        
+    }
+    #box20{
+        border: thick solid peru;
+        margin: auto;
+        width: 60%;
+        min-height: 10vh;
+        text-align: right;
+        line-height: 2;
+        /* padding: 2em; */
+        font-weight: 900;
+        text-transform: uppercase;
+        color:pink;
+        font-size: 85%;
+       font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 5px;
+       
+        
+    }
+</style>
+<body>
+    <div id="box1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut deserunt amet nostrum excepturi, recusandae voluptatum sint cum totam velit dolor sed magni? Quam, beatae rerum quasi quo temporibus ad cum.
+        Quos labore enim corporis obcaecati odio necessitatibus vitae, eligendi repellendus officiis. Minus quam assumenda commodi laboriosam esse distinctio eius quod corrupti quae ex recusandae libero exercitationem et necessitatibus, aliquid voluptate?
+    </div> <br><br>
+    <div id="box2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam error ipsam, facere totam architecto assumenda nesciunt. Voluptas, minus. Minima, deleniti? Cum perspiciatis provident omnis quidem iusto modi repellat, repellendus vero.
+        Voluptate mollitia illo temporibus et obcaecati totam culpa corporis, molestiae laboriosam accusantium omnis nostrum laborum quas sit itaque adipisci numquam harum? Vel nisi suscipit voluptates magnam minus dolorum illum eveniet.
+
+    </div> <br><br>
+    <div id="box3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ab! Suscipit eligendi dolorem atque, ab quo sapiente aliquam vero molestiae fuga. Pariatur magni eaque tenetur. Saepe, magni id. Consequatur, quae?
+        Dolore tenetur, autem sit maxime non optio numquam beatae! Consectetur, alias eaque dolorem quae neque error culpa tempore et similique nostrum ullam. Vitae nisi maiores beatae modi repellat ratione excepturi?
+    </div> <br><br>
+    <div id="box4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure neque doloremque sed aperiam sunt minima mollitia repellendus? Sint ipsum modi consequuntur earum molestiae? Itaque id, cum soluta eius veniam voluptate!
+        Magnam nemo, ea praesentium, voluptas a quidem beatae blanditiis officia corporis corrupti labore! Molestias, aperiam asperiores possimus illo vitae debitis id est. Tenetur ratione iure dolore provident totam corrupti molestiae?
+    </div> <br><br>
+    <div id="box5">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, harum minus vitae voluptates voluptatibus quibusdam asperiores ipsam possimus in accusamus voluptate aspernatur unde rerum eos, atque nihil dolore commodi culpa?
+        Commodi tempora quam odio quaerat sint ab, nemo fugiat aspernatur explicabo eius assumenda, pariatur omnis repellendus atque corporis reiciendis aut nesciunt? Fugiat amet aperiam sit porro eos ut ea cumque!
+    </div> <br> <br>
+    <div id="box6">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores provident culpa modi delectus magnam qui nostrum, nemo cumque dicta ipsam sapiente aliquam. A repudiandae eius eaque incidunt sed illo sunt.
+        Minus sit blanditiis, eaque reprehenderit, ducimus tenetur architecto excepturi esse iste placeat suscipit dignissimos explicabo porro ipsa atque impedit rem aliquid vero harum voluptatum, asperiores nulla ab sequi hic? Fugiat?
+    </div> <br><br>
+    <div id="box7">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores facilis commodi quos quasi illo vitae aliquam sed doloribus iusto sapiente quo, ea eaque quas provident alias explicabo reprehenderit, inventore tenetur!
+    </div> <br><br>
+    <div id="box8">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aliquam perferendis, voluptas amet ullam iusto voluptates quidem repellat, minus impedit cupiditate, fuga quibusdam corrupti autem dicta molestiae ut cumque pariatur!
+    </div> <br><br>
+    <div id="box9">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div> <br><br>
+    <div id="box10">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div> <br><br>
+    <div id="box11">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div> <br>btr
+    
+    <div id="box12">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div> <br><br>
+    <div id="box13">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div> <br><br>
+    <div id="box14">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div> <br><br>
+    <div id="box15">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div> <br><br> 
+    <div id="box16">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div> <br><br>
+    <div id="box17">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div> <br><br>
+    <div id="box18">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div> <br><br>
+    <div id="box19">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div> <br><br>
+    <div id="box20">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div> <br><br>
+    <div id="box21">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div> <br><br>
+    <div id="box22">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div> <br><br>
+    <div id="box23">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div> <br><br>
+    <div id="box24">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div> <br><br>
+    <div id="box25">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div> <br><br>
+    <div id="box26">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div>
+    <div id="box27">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div>
+    <div id="box28">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div>
+    <div id="box29">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div>
+    <div id="box30">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div>
+    <div id="box31">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div>
+    <div id="box32">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum! Illo explicabo maiores, repellat doloribus natus deserunt maxime, asperiores atque cum voluptas reprehenderit sequi dignissimos veritatis deleniti sapiente eaque? Quisquam.
+    </div>
+</body>
+</html>

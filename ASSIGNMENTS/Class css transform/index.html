@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            border: thick solid green;
+            min-height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            perspective: 1000px;
+            grid-template-columns: 3fr 3fr;
+            display: grid;
+            padding: 2em;
+
+        }
+        .item{
+            border: thick solid green;
+            height: 30vh;
+            background-color: green;
+            width: 50%;
+            margin: 10px auto;
+
+        }
+        .item:nth-of-type(1){
+            background-color: blue;
+            border: none;
+            transition: 10s;
+            
+        }
+        .item:nth-of-type(2){
+            background-color: brown;
+            border: none;
+            transform: translateY(5deg);
+            transition: 5s;
+        }
+        .item:nth-of-type(3){
+            background-color: orangered;
+            border: none;
+            transition: 3s;
+        }
+        .item:nth-of-type(4){
+            background-color: aquamarine;
+            border: none;
+            transition: 10s;
+        }
+
+        .item:nth-of-type(2):hover{
+            transform: rotateX(20deg);
+        }
+        .item:nth-of-type(1):hover{
+            transform: translateY(8em);
+        }
+        .item:nth-of-type(3):hover{
+            transform: scale(110%);
+          
+        }
+        .item:nth-of-type(4):hover{
+            transform: translateX(20em);
+        }
+        /* .item:hover{
+            transform: rotate(20deg);
+        } */
+
+        /* .item:nth-of-type(even){
+            background-color: aqua;
+            border: none;
+            transform: translateX(5em);
+            transform: translateY(5em)translateX(10em);
+            transform: rotateY(100deg);
+            transform: skewY(30deg);
+            transform: scale(70%);
+        } */
+    </style>
+</head>
+<body>
+    <!-- css transform -->
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+
+    </div>
+</body>
+</html>
